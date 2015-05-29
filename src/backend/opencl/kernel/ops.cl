@@ -72,3 +72,81 @@ T transform_MAX_OP(T in)
 {
     return in;
 }
+
+// NOTZERO_OP
+T bin_NOTZERO_OP(T lhs, T rhs)
+{
+    return lhs + rhs;
+}
+
+T transform_NOTZERO_OP(T in)
+{
+    return (in != 0);
+}
+
+// EQ_OP
+T bin_EQ_OP(T lhs, T rhs)
+{
+    return lhs == rhs;
+}
+
+To transform_EQ_OP(Ti in)
+{
+    return(To)(in);
+}
+
+// NE_OP
+T bin_NE_OP(T lhs, T rhs)
+{
+    return lhs != rhs;
+}
+
+To transform_NE_OP(Ti in)
+{
+    return(To)(in);
+}
+
+// GT_OP
+T bin_GT_OP(T lhs, T rhs)
+{
+    return lhs > rhs;
+}
+
+To transform_GT_OP(Ti in)
+{
+    return(To)(in);
+}
+
+// GE_OP
+T bin_GE_OP(T lhs, T rhs)
+{
+    return lhs >= rhs;
+}
+
+To transform_GE_OP(Ti in)
+{
+    return(To)(in);
+}
+
+// LT_OP
+T bin_LT_OP(T lhs, T rhs)
+{
+    return lhs < rhs;
+}
+
+To transform_LT_OP(Ti in)
+{
+    return(To)(in);
+}
+
+// LE_OP
+T bin_LE_OP(T lhs, T rhs)
+{
+    return lhs <= rhs;
+}
+
+To transform_LE_OP(Ti in)
+{
+    return(To)(in);
+}
+
